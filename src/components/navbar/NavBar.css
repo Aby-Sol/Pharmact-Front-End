@@ -1,0 +1,80 @@
+.Navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items:center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+
+}
+.LogoSpace{
+    flex: 3;
+    margin-left: 25px;   
+
+}
+
+.Logo{
+    height: 40px;
+    width: auto;
+    
+}
+
+.topLeft,.topRight{
+    flex:3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Socials{
+font-size: 20px;
+margin-right: 10px;
+color: #222;
+cursor: pointer;
+}
+
+.topCenter{
+    flex:7;
+}
+.ProfilePicture{
+    width: 30px;
+    height: 30px;
+    border-radius:50% ;
+    object-fit: cover;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.TopListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight:300;
+    cursor: pointer;
+
+}
+
+.Log{
+    margin-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: none;
+    font-size: 16px;
+
+}
+
+.SearchIcon{
+    font-size: 18px;
+    color: #666;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 20px;
+}
